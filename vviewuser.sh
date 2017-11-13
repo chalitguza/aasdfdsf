@@ -2,9 +2,9 @@
 #By BirdCoE
 echo -e "\033[1;32m
  ====================================================
- credit   : Dev By BirdCoE 
- Facebook : https://www.facebook.com/BirdCoE 
- Line     : http://line.me/ti/p/cbirdc
+ เครดิต   : Dev By BirdCoE 
+ Face    : https://www.facebook.com/BirdCoE 
+ Line    : http://line.me/ti/p/cbirdc
  ===================================================="
 echo -e "\033[1;36m" 
 echo "---------------------------------------------"
@@ -24,13 +24,13 @@ do
         printf "%-4s %-15s %-10s %-3s\n" "$C." "$acout" "------" "$exp"
         OFF=$((OFF+1))
         else
-        printf "%-4s %-15s %-10s %-3s\n" "$C." "$acout" "online" "$exp"
+        printf "%-4s %-15s %-10s %-3s\n" "$C." "$acout" "ออนไลน์" "$exp"
         ON=$((ON+1))
         fi
         C=$((C+1))
         fi
 done < /etc/passwd
 echo "---------------------------------------------"
-echo " online : $ON คน    ofline : $OFF คน"
+echo " ออนไลน์ : $ON คน    ออฟไลน์ : $OFF คน"
 echo "---------------------------------------------"
 echo -e "\033[1;32m" 

@@ -4,7 +4,7 @@ echo -e "\033[1;32m
  ====================================================
  credit   : Dev By BirdCoE 
  Facebook : https://www.facebook.com/BirdCoE 
- Line     : http://line.me/ti/p/cbirdcc
+ Line     : http://line.me/ti/p/cbirdc
  ===================================================="
 echo -e "\033[1;36m" 
 echo "---------------------------------------------"

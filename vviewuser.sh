@@ -24,7 +24,7 @@ do
         printf "%-4s %-15s %-10s %-3s\n" "$C." "$acout" "------" "$exp"
         OFF=$((OFF+1))
         else
-        printf "%-4s %-15s %-10s %-3s\n" "$C." "$acout" "ออนไลน์" "$exp"
+        printf "%-4s %-15s %-10s %-3s\n" "$C." "$acout" "online" "$exp"
         ON=$((ON+1))
         fi
         C=$((C+1))

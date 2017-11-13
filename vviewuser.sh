@@ -31,6 +31,6 @@ do
         fi
 done < /etc/passwd
 echo "---------------------------------------------"
-echo " online : $ON     ofline : $OFF "
+echo " online : $ON คน    ofline : $OFF คน"
 echo "---------------------------------------------"
 echo -e "\033[1;32m" 
